@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Logo } from '../../assets/download.svg'
  
 const Header = () => (
     <div className='header'>
     <Link className='logo-container' to='/'>
-        <img src='../../assets/Logo.jpg' alt='logo'/>
+        <Logo className='logo'/>
     </Link>
     <div className="options">
         <Link className='option' to='/shop'>
