@@ -1,10 +1,11 @@
 import React from 'react';
 import SignIn from '../../components/sign-in/SignIn';
-import SignUp from '../../components/sign-up/SignUp'
+import SignUp from '../../components/sign-up/SignUp';
+import './RegisterForm.scss'
 
 const RegisterForm = () => {
     return (
-        <div>
+        <div className='register-form'>
             <SignIn/>
             <SignUp/>
         </div>

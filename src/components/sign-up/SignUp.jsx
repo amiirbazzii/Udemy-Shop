@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FormInput from '../form-input/FormInput';
 import CustomButton from '../custom-button/CustomButton';
 import { auth , createUserProfileDocument } from '../../firebase/FireBase-utlis';
+import './SignUp.scss'
 
 export default class SignUp extends Component {
     constructor(){
@@ -79,7 +80,7 @@ export default class SignUp extends Component {
                     required
                     /> 
                     <FormInput
-                    type='confirmPassword'
+                    type='Password'
                     name='confirmPassword'
                     value={confirmPassword}
                     onChange={this.handleChange}
