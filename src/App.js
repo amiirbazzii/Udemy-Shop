@@ -1,12 +1,11 @@
 import React from 'react';
 import { Switch , Route , Redirect } from 'react-router-dom';
 import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
 
 import Home from './pages/home/Home';
 import ShopPage from './pages/shop/Shop';
 import RegisterForm from './pages/registration-form/RegisterForm';
-import CheckOutPage from './pages/checkout/CheckOut';
+import CheckOutPage from './pages/checkout/Checkout';
 
 import { selectCurrentUser } from "./redux/user/user.selectors";
 import { setCurrentUser } from './redux/user/action';
